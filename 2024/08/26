@@ -1,0 +1,44 @@
+
+    "zones_with_problems": ["west", "middle", "east"], 
+    "date": "2024-08-26",
+    "url": 
+    "prediction" ,
+        "availability": "75%",  
+        "demand_max": "1200 MW",
+        "impact": "high",
+        "deficit": "200 MW",
+        "backup": "50 MW"
+    }
+     {
+        "time": "08:00 AM", 
+        "availability": "70%", 
+        "demand": "1000 MW", 
+        "deficit": "150 MW" 
+    }, 
+    "plants": [
+        {
+            "ID": "Plant1",
+            "broken": ["Turbine2", "Generator3"],
+            "maintenance": ["Boiler1"],
+            "limitation": "Fuel shortage"
+        },
+        {
+            "ID": "Plant2",
+            "broken": [],
+            "maintenance": ["CoolingSystem"],
+            "limitation": "Technical issues"
+        }
+    ],
+    "distributed": {
+        "motors_with_problems": "5",
+        "total_impact": "300 MW",
+        "combustible_problem": "Yes",
+        "snips_with_problems": "2",
+        "motors_impact": "150 MW"
+    },
+    "impact": {
+        "total_hours": "6",
+        "max": "250 MW",
+        "max_hour": "02:00 PM"
+    }
+}
